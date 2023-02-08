@@ -49,6 +49,7 @@ if __name__ == '__main__':
                         for i in data:
                             initialIps.append(i['RemoteAddress'])
                         initialIps = list(set(initialIps))
+                        firstFlag = False
                     else:
                         newIps = []
                         for i in data:
